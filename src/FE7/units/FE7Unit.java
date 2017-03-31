@@ -138,4 +138,6 @@ public interface FE7Unit {
    * Displays the unit info in the console.
    */
   void display();
+
+  void levelUpTo(int lvl);
 }

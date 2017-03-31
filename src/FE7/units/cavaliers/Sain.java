@@ -1,13 +1,13 @@
-package FE7.units.lords;
+package FE7.units.cavaliers;
 
 import java.util.Random;
 
 import FE7.units.FE7Unit;
 
 /**
- * Represents Lyn
+ * Represents Sain from FE7.
  */
-public class Lyn implements FE7Unit {
+public class Sain implements FE7Unit {
 
   private String name;
   private String type;
@@ -30,33 +30,33 @@ public class Lyn implements FE7Unit {
   private int resGrowth;
 
   /**
-   * Constructs an instance of Lyn.
+   * Constructs an instance of Sain.
    */
-  public Lyn() {
-    this.name = "Lyn";
-    this.type = "Lord";
+  public Sain() {
+    this.name = "Sain";
+    this.type = "Cavalier";
     this.lvl = 1;
-    this.hp = 16;
-    this.strMag = 4;
-    this.skl = 7;
-    this.spd = 9;
-    this.def = 2;
-    this.lck = 5;
+    this.hp = 19;
+    this.strMag = 8;
+    this.skl = 4;
+    this.spd = 6;
+    this.def = 6;
+    this.lck = 4;
     this.res = 0;
-    this.con = 5;
-    this.mov = 5;
-    this.hpGrowth = 70;
-    this.strMagGrowth = 40;
-    this.sklGrowth = 60;
-    this.spdGrowth = 60;
+    this.con = 9;
+    this.mov = 7;
+    this.hpGrowth = 80;
+    this.strMagGrowth = 60;
+    this.sklGrowth = 35;
+    this.spdGrowth = 40;
     this.defGrowth = 20;
-    this.lckGrowth = 55;
-    this.resGrowth = 30;
+    this.lckGrowth = 35;
+    this.resGrowth = 20;
   }
 
   @Override
   public void levelUp() {
-    //Random r = new Random();
+    Random r = new Random();
     if (lvl < 20) {
       this.lvl++;
       this.hpUp();
@@ -133,18 +133,19 @@ public class Lyn implements FE7Unit {
     if (this.lvl < 10) {
       throw new IllegalStateException("Unit must be at least level 10 to promote.");
     }
-    if (this.type.equals("Blade Lord")) {
+    if (this.type.equals("Paladin")) {
       throw new IllegalStateException("Unit is already second class.");
     }
     else {
-      this.type = "Blade Lord";
+      this.type = "Paladin";
       this.lvl = 1;
-      this.hp = hp + 3;
-      this.strMag = strMag + 2;
-      this.skl = skl + 2;
-      this.def = def + 3;
-      this.res = res + 5;
-      this.con = con + 1;
+      this.hp = hp + 2;
+      this.strMag = strMag + 1;
+      this.skl = skl + 1;
+      this.spd = spd + 1;
+      this.def = def + 2;
+      this.res = res + 1;
+      this.con = con + 2;
       this.mov = mov + 1;
     }
   }

@@ -23,4 +23,18 @@ public class LynTest {
     lyn.hpUp();
     lyn.display();
   }
+
+  @Test
+  public void testLevelUp() {
+    lyn.levelUp();
+    lyn.levelUp();
+    lyn.levelUp();
+    lyn.display();
+  }
+
+  @Test
+  public void testLevelUpTo() {
+    lyn.levelUpTo(20);
+    lyn.display();
+  }
 }
