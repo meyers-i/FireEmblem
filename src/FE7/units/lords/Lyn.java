@@ -10,6 +10,7 @@ import FE7.units.FE7Unit;
 public class Lyn implements FE7Unit {
 
   private String name;
+  private String type;
   private int lvl;
   private int hp;
   private int strMag;
@@ -33,6 +34,7 @@ public class Lyn implements FE7Unit {
    */
   public Lyn() {
     this.name = "Lyn";
+    this.type = "Lord";
     this.lvl = 1;
     this.hp = 16;
     this.strMag = 4;
@@ -131,7 +133,11 @@ public class Lyn implements FE7Unit {
     if (this.lvl < 10) {
       throw new IllegalStateException("Unit must be at least level 10 to promote.");
     }
+    if (this.type.equals("Blade Lord")) {
+      throw new IllegalStateException("Unit is already second class.");
+    }
     else {
+      this.type = "Blade Lord";
       this.lvl = 1;
       this.hp = hp + 3;
       this.strMag = strMag + 2;
@@ -199,8 +205,14 @@ public class Lyn implements FE7Unit {
   }
 
   @Override
+  public String getType() {
+    return this.type;
+  }
+
+  @Override
   public void display() {
-    System.out.println(this.name + ": ");
+    System.out.println(this.name);
+    System.out.println(this.type);
     System.out.println("LVL: " + this.lvl);
     System.out.println("HP: " + this.hp);
     System.out.println("STR: " + this.strMag);

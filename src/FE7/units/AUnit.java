@@ -5,5 +5,6 @@ package FE7.units;
  */
 public class AUnit {
 
-
+  String name;
+  int lvl;
 }

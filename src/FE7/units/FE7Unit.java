@@ -128,6 +128,13 @@ public interface FE7Unit {
   int getMov();
 
   /**
+   * Returns the unit's class.
+   *
+   * @return The class
+   */
+  String getType();
+
+  /**
    * Displays the unit info in the console.
    */
   void display();
