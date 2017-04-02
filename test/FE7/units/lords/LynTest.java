@@ -33,7 +33,6 @@ public class LynTest {
   @Test
   public void testLevelUp() {
     lyn.levelUp();
-
     lyn.display();
   }
 

@@ -1,9 +1,9 @@
 package FE7.units.lords;
 
-import java.util.Random;
+
 
 import FE7.units.AUnit;
-import FE7.units.FE7Unit;
+
 
 /**
  * Represents Lyn
