@@ -2,6 +2,7 @@ package FE7.units.lords;
 
 import org.junit.Test;
 
+import FE7.units.AUnit;
 import FE7.units.FE7Unit;
 
 import static junit.framework.TestCase.assertEquals;
@@ -11,7 +12,7 @@ import static junit.framework.TestCase.assertEquals;
  */
 public class LynTest {
 
-  FE7Unit lyn = new Lyn();
+  AUnit lyn = new Lyn();
 
   @Test
   public void testGets() {
@@ -25,16 +26,27 @@ public class LynTest {
   }
 
   @Test
+  public void testDef() {
+    lyn.display();
+  }
+
+  @Test
   public void testLevelUp() {
     lyn.levelUp();
-    lyn.levelUp();
-    lyn.levelUp();
+
     lyn.display();
   }
 
   @Test
   public void testLevelUpTo() {
     lyn.levelUpTo(20);
+    lyn.display();
+  }
+
+  @Test
+  public void testPromote() {
+    lyn.levelUpTo(20);
+    lyn.promote();
     lyn.display();
   }
 }

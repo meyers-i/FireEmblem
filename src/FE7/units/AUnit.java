@@ -81,7 +81,7 @@ public abstract class AUnit implements FE7Unit {
   public void defUp() {
     Random r = new Random();
     if (r.nextInt(101) < defGrowth) {
-      this.def++;
+      this.def = def + 1;
     }
   }
 
@@ -173,7 +173,7 @@ public abstract class AUnit implements FE7Unit {
     System.out.println("STR: " + this.strMag);
     System.out.println("SKL: " + this.skl);
     System.out.println("SPD: " + this.spd);
-    System.out.println("DEF: " + this.spd);
+    System.out.println("DEF: " + this.def);
     System.out.println("LCK: " + this.lck);
     System.out.println("RES: " + this.res);
     System.out.println("CON: " + this.con);
