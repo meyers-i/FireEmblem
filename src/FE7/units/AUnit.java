@@ -182,6 +182,9 @@ public abstract class AUnit implements FE7Unit {
 
   @Override
   public void levelUpTo(int lvl) {
+    if (lvl > 20) {
+      throw new IllegalArgumentException("Given level exceeds the level cap.");
+    }
     int x = lvl - this.lvl;
     while(x > 0) {
       this.levelUp();
