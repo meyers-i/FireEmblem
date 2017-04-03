@@ -3,10 +3,13 @@ package FE7.units.clerics_and_monks;
 import FE7.units.AUnit;
 
 /**
- * Created by Ian on 4/3/2017.
+ * Represents Lucious from FE7.
  */
 public class Lucius extends AUnit {
 
+  /**
+   * Constructor for Lucius.
+   */
   public Lucius() {
     this.name = "Lucius";
     this.type = "Monk";

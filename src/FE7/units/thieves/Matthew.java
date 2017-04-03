@@ -2,9 +2,14 @@ package FE7.units.thieves;
 
 import FE7.units.AUnit;
 
-
+/**
+ * Represents Matthew from FE7.
+ */
 public class Matthew extends AUnit {
 
+  /**
+   * Constructor for Matthew.
+   */
   public Matthew() {
     this.name = "Matthew";
     this.type = "Thief";

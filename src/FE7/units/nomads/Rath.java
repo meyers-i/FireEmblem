@@ -2,9 +2,14 @@ package FE7.units.nomads;
 
 import FE7.units.AUnit;
 
-
+/**
+ * Represents Rath from FE7.
+ */
 public class Rath extends AUnit {
 
+  /**
+   * Constructor for Rath.
+   */
   public Rath() {
     this.name = "Rath";
     this.type = "Nomad";

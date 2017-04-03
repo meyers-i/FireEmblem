@@ -2,9 +2,7 @@ package FE7.units.lords;
 
 import FE7.units.AUnit;
 
-/**
- * Created by Ian on 4/3/2017.
- */
+
 public class Eliwood extends AUnit {
 
   public Eliwood() {

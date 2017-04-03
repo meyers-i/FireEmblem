@@ -3,8 +3,14 @@ package FE7.units.clerics_and_monks;
 
 import FE7.units.AUnit;
 
+/**
+ * Represents Serra from FE7.
+ */
 public class Serra extends AUnit {
 
+  /**
+   * Constructor for Serra.
+   */
   public Serra() {
     this.name = "Serra";
     this.type = "Cleric";

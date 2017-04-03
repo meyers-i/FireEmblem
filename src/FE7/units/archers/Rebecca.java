@@ -2,9 +2,14 @@ package FE7.units.archers;
 
 import FE7.units.AUnit;
 
-
+/**
+ * Represents Rebecca from FE7.
+ */
 public class Rebecca extends AUnit {
 
+  /**
+   * Constructor for Rebecca.
+   */
   public Rebecca() {
     this.name = "Rebecca";
     this.type = "Archer";

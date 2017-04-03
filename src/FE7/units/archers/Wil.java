@@ -2,8 +2,14 @@ package FE7.units.archers;
 
 import FE7.units.AUnit;
 
+/**
+ * Represents Wil from FE7.
+ */
 public class Wil extends AUnit{
 
+  /**
+   * Constructor for Wil.
+   */
   public Wil() {
     this.name = "Wil";
     this.type = "Archer";

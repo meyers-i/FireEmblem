@@ -6,7 +6,7 @@ import FE7.units.AUnit;
 
 
 /**
- * Represents Lyn
+ * Represents Lyn from FE7.
  */
 public class Lyn extends AUnit {
 

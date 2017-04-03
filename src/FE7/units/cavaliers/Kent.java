@@ -3,7 +3,7 @@ package FE7.units.cavaliers;
 import FE7.units.AUnit;
 
 /**
- * Created by Ian on 4/2/2017.
+ * Represents Kent from FE7.
  */
 public class Kent extends AUnit {
 

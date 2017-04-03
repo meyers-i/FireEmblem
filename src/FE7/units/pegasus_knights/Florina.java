@@ -3,8 +3,14 @@ package FE7.units.pegasus_knights;
 
 import FE7.units.AUnit;
 
+/**
+ * Represents Florina from FE7.
+ */
 public class Florina extends AUnit {
 
+  /**
+   * Constructor for Florina.
+   */
   public Florina() {
     this.name = "Florina";
     this.type = "Pegasus Knight";

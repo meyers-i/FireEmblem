@@ -2,9 +2,7 @@ package FE7.units.dancers_and_bards;
 
 import FE7.units.AUnit;
 
-/**
- * Created by Ian on 4/3/2017.
- */
+
 public class Nils extends AUnit {
 
   public Nils() {

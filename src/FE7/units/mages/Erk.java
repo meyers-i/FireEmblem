@@ -2,8 +2,14 @@ package FE7.units.mages;
 
 import FE7.units.AUnit;
 
+/**
+ * Represents Erk from FE7.
+ */
 public class Erk extends AUnit {
 
+  /**
+   * Constructor for Erk.
+   */
   public Erk() {
     this.name = "Erk";
     this.type = "Mage";

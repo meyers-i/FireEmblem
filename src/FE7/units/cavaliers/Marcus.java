@@ -2,9 +2,7 @@ package FE7.units.cavaliers;
 
 import FE7.units.AUnit;
 
-/**
- * Created by Ian on 4/3/2017.
- */
+
 public class Marcus extends AUnit {
 
   public Marcus() {

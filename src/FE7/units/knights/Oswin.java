@@ -2,29 +2,34 @@ package FE7.units.knights;
 
 import FE7.units.AUnit;
 
+/**
+ * Represents Oswin from FE7.
+ */
+public class Oswin extends AUnit {
 
-public class Wallace extends AUnit {
-
-  public Wallace() {
-    this.name = "Wallace";
+  /**
+   * Constructor for Oswin.
+   */
+  public Oswin() {
+    this.name = "Oswin";
     this.type = "Knight";
-    this.lvl = 12;
-    this.hp = 30;
+    this.lvl = 9;
+    this.hp = 29;
     this.strMag = 13;
-    this.skl = 7;
+    this.skl = 9;
     this.spd = 5;
-    this.def = 15;
-    this.lck = 10;
-    this.res = 2;
-    this.con = 13;
+    this.def = 13;
+    this.lck = 3;
+    this.res = 3;
+    this.con = 14;
     this.mov = 4;
-    this.hpGrowth = 75;
-    this.strMagGrowth = 45;
-    this.sklGrowth = 40;
-    this.spdGrowth = 20;
+    this.hpGrowth = 90;
+    this.strMagGrowth = 40;
+    this.sklGrowth = 30;
+    this.spdGrowth = 30;
     this.defGrowth = 55;
     this.lckGrowth = 35;
-    this.resGrowth = 35;
+    this.resGrowth = 30;
   }
 
   @Override

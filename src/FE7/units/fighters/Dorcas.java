@@ -3,8 +3,14 @@ package FE7.units.fighters;
 
 import FE7.units.AUnit;
 
+/**
+ * Represents Dorcas from FE7.
+ */
 public class Dorcas extends AUnit {
 
+  /**
+   * Constructor for Dorcas.
+   */
   public Dorcas() {
     this.name = "Dorcas";
     this.type = "Fighter";

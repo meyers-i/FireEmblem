@@ -3,10 +3,13 @@ package FE7.units.cavaliers;
 import FE7.units.AUnit;
 
 /**
- * Created by Ian on 4/3/2017.
+ * Represents Lowen from FE&.
  */
 public class Lowen extends AUnit {
 
+  /**
+   * Constructor for Lowen.
+   */
   public Lowen() {
     this.name = "Lowen";
     this.type = "Cavalier";

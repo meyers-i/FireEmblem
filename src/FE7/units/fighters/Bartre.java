@@ -2,9 +2,14 @@ package FE7.units.fighters;
 
 import FE7.units.AUnit;
 
-
+/**
+ * Represents Bartre from FE7.
+ */
 public class Bartre extends AUnit {
 
+  /**
+   * Constructor for Bartre.
+   */
   public Bartre() {
     this.name = "Bartre";
     this.type = "Fighter";
