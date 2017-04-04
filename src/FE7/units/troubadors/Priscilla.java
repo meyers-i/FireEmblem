@@ -1,35 +1,35 @@
-package FE7.units.clerics_and_monks;
+package FE7.units.troubadors;
 
 import FE7.units.AUnit;
 
 /**
- * Represents Lucious from FE7.
+ * Represents Priscilla from FE7.
  */
-public class Lucius extends AUnit {
+public class Priscilla extends AUnit {
 
   /**
-   * Constructor for Lucius.
+   * Constructor for Priscilla.
    */
-  public Lucius() {
-    this.name = "Lucius";
-    this.type = "Monk";
+  public Priscilla() {
+    this.name = "Priscilla";
+    this.type = "Troubador";
     this.lvl = 3;
-    this.hp = 18;
-    this.strMag = 7;
+    this.hp = 16;
+    this.strMag = 6;
     this.skl = 6;
-    this.spd = 10;
-    this.def = 1;
-    this.lck = 2;
+    this.spd = 8;
+    this.def = 3;
+    this.lck = 7;
     this.res = 6;
-    this.con = 6;
-    this.mov = 5;
-    this.hpGrowth = 55;
-    this.strMagGrowth = 60;
+    this.con = 4;
+    this.mov = 7;
+    this.hpGrowth = 45;
+    this.strMagGrowth = 40;
     this.sklGrowth = 50;
     this.spdGrowth = 40;
-    this.defGrowth = 10;
-    this.lckGrowth = 20;
-    this.resGrowth = 60;
+    this.defGrowth = 15;
+    this.lckGrowth = 65;
+    this.resGrowth = 50;
   }
 
   @Override
@@ -37,16 +37,16 @@ public class Lucius extends AUnit {
     if (this.lvl < 10) {
       throw new IllegalStateException("Unit must be at least level 10 to promote.");
     }
-    if (this.type.equals("Bishop")) {
+    if (this.type.equals("Valkyrie")) {
       throw new IllegalStateException("Unit is already second class.");
     }
     else {
-      this.type = "Bishop";
+      this.type = "Valkyrie";
       this.lvl = 1;
       this.hp = hp + 3;
       this.strMag = strMag + 2;
       this.skl = skl + 1;
-      this.def = def + 3;
+      this.def = def + 2;
       this.res = res + 3;
       this.con = con + 1;
       this.mov = mov + 1;

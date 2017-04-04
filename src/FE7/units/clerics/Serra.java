@@ -1,4 +1,4 @@
-package FE7.units.clerics_and_monks;
+package FE7.units.clerics;
 
 
 import FE7.units.AUnit;
