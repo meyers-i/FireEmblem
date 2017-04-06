@@ -139,5 +139,28 @@ public interface FE7Unit {
    */
   void display();
 
+  /**
+   * Levels up the unit to the given level.
+   *
+   * @param lvl The level to be leveled up to
+   */
   void levelUpTo(int lvl);
+
+  void applyAngelicRobe();
+
+  void applyEnergyRing();
+
+  void applySecretBook();
+
+  void applySpeedwing();
+
+  void applyDracoshield();
+
+  void applyGoddessIcon();
+
+  void applyTalisman();
+
+  void applyBoots();
+
+  void applyBodyRing();
 }

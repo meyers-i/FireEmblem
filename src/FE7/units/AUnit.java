@@ -230,4 +230,17 @@ public abstract class AUnit implements FE7Unit {
       x--;
     }
   }
+
+  @Override
+  public void applyAngelicRobe() {
+    if (hp == 60) {
+      throw new IllegalStateException("Unit's HP is already maxed.");
+    }
+    else if (hp >= 53) {
+      this.hp = 60;
+    }
+    else {
+      this.hp = hp + 7;
+    }
+  }
 }
