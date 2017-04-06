@@ -27,6 +27,18 @@ public class Wallace extends AUnit {
     this.resGrowth = 35;
   }
 
+  public Wallace(String name, String type, int lvl, int hp, int strMag, int skl, int spd, int def,
+               int lck, int res, int con, int mov) {
+    super(name, type, lvl, hp, strMag, skl, spd, def, lck, res, con, mov);
+    this.hpGrowth = 75;
+    this.strMagGrowth = 45;
+    this.sklGrowth = 40;
+    this.spdGrowth = 20;
+    this.defGrowth = 55;
+    this.lckGrowth = 35;
+    this.resGrowth = 35;
+  }
+
   @Override
   public void promote() {
     if (this.lvl < 10) {

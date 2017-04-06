@@ -27,6 +27,18 @@ public class Nils extends AUnit {
     this.resGrowth = 70;
   }
 
+  public Nils(String name, String type, int lvl, int hp, int strMag, int skl, int spd, int def,
+               int lck, int res, int con, int mov) {
+    super(name, type, lvl, hp, strMag, skl, spd, def, lck, res, con, mov);
+    this.hpGrowth = 85;
+    this.strMagGrowth = 5;
+    this.sklGrowth = 5;
+    this.spdGrowth = 70;
+    this.defGrowth = 30;
+    this.lckGrowth = 80;
+    this.resGrowth = 70;
+  }
+
   @Override
   public void promote() {
     throw new IllegalStateException("This unit cannot be promoted.");

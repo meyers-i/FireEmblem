@@ -27,6 +27,18 @@ public class Marcus extends AUnit {
     this.resGrowth = 35;
   }
 
+  public Marcus(String name, String type, int lvl, int hp, int strMag, int skl, int spd, int def,
+               int lck, int res, int con, int mov) {
+    super(name, type, lvl, hp, strMag, skl, spd, def, lck, res, con, mov);
+    this.hpGrowth = 65;
+    this.strMagGrowth = 30;
+    this.sklGrowth = 50;
+    this.spdGrowth = 25;
+    this.defGrowth = 15;
+    this.lckGrowth = 30;
+    this.resGrowth = 35;
+  }
+
   @Override
   public void promote() {
     throw new IllegalStateException("This unit cannot be promoted.");

@@ -35,6 +35,18 @@ public class Lyn extends AUnit {
     this.resGrowth = 30;
   }
 
+  public Lyn(String name, String type, int lvl, int hp, int strMag, int skl, int spd, int def,
+                int lck, int res, int con, int mov) {
+    super(name, type, lvl, hp, strMag, skl, spd, def, lck, res, con, mov);
+    this.hpGrowth = 70;
+    this.strMagGrowth = 40;
+    this.sklGrowth = 60;
+    this.spdGrowth = 60;
+    this.defGrowth = 20;
+    this.lckGrowth = 55;
+    this.resGrowth = 30;
+  }
+
   @Override
   public void promote() {
     if (this.lvl < 10) {

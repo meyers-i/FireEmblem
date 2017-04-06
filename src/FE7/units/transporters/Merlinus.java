@@ -32,6 +32,18 @@ public class Merlinus extends AUnit {
     this.resGrowth = 15;
   }
 
+  public Merlinus(String name, String type, int lvl, int hp, int strMag, int skl, int spd, int def,
+                 int lck, int res, int con, int mov) {
+    super(name, type, lvl, hp, strMag, skl, spd, def, lck, res, con, mov);
+    this.hpGrowth = 120;
+    this.strMagGrowth = 0;
+    this.sklGrowth = 90;
+    this.spdGrowth = 90;
+    this.defGrowth = 30;
+    this.lckGrowth = 100;
+    this.resGrowth = 15;
+  }
+
   @Override
   public void promote() {
     if (this.lvl < 10) {

@@ -32,6 +32,18 @@ public class Wil extends AUnit{
     this.resGrowth = 25;
   }
 
+  public Wil(String name, String type, int lvl, int hp, int strMag, int skl, int spd, int def,
+                 int lck, int res, int con, int mov) {
+    super(name, type, lvl, hp, strMag, skl, spd, def, lck, res, con, mov);
+    this.hpGrowth = 75;
+    this.strMagGrowth = 50;
+    this.sklGrowth = 50;
+    this.spdGrowth = 40;
+    this.defGrowth = 20;
+    this.lckGrowth = 40;
+    this.resGrowth = 25;
+  }
+
   @Override
   public void promote() {
     if (this.lvl < 10) {

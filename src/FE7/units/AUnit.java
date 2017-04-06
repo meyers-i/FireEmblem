@@ -27,6 +27,45 @@ public abstract class AUnit implements FE7Unit {
   public int lckGrowth;
   public int resGrowth;
 
+  /**
+   * Default AUnit constructor
+   */
+  public AUnit() {
+
+  }
+
+  /**
+   * Constructor that allows input of stats.
+   *
+   * @param name Unit's name
+   * @param type Unit's class
+   * @param lvl Unit's level
+   * @param hp Unit's HP
+   * @param strMag Unit's Str/Mag
+   * @param skl Unit's Skl
+   * @param spd Unit's Spd
+   * @param def Unit's Def
+   * @param lck Unit's lck
+   * @param res Unit's Res
+   * @param con Unit's Con
+   * @param mov Unit's Mov
+   */
+  public AUnit(String name, String type, int lvl, int hp, int strMag, int skl, int spd, int def,
+               int lck, int res, int con, int mov) {
+    this.name = name;
+    this.type = type;
+    this.lvl = lvl;
+    this.hp = hp;
+    this.strMag = strMag;
+    this.skl = skl;
+    this.spd = spd;
+    this.def = def;
+    this.lck = lck;
+    this.res = res;
+    this.con = con;
+    this.mov = mov;
+  }
+
   @Override
   public void levelUp() {
     //Random r = new Random();

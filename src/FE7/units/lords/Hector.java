@@ -33,6 +33,18 @@ public class Hector extends AUnit {
     this.resGrowth = 25;
   }
 
+  public Hector(String name, String type, int lvl, int hp, int strMag, int skl, int spd, int def,
+                 int lck, int res, int con, int mov) {
+    super(name, type, lvl, hp, strMag, skl, spd, def, lck, res, con, mov);
+    this.hpGrowth = 90;
+    this.strMagGrowth = 60;
+    this.sklGrowth = 45;
+    this.spdGrowth = 35;
+    this.defGrowth = 50;
+    this.lckGrowth = 30;
+    this.resGrowth = 25;
+  }
+
   @Override
   public void promote() {
     if (this.lvl < 10) {

@@ -33,6 +33,18 @@ public class Dorcas extends AUnit {
     this.resGrowth = 15;
   }
 
+  public Dorcas(String name, String type, int lvl, int hp, int strMag, int skl, int spd, int def,
+                int lck, int res, int con, int mov) {
+    super(name, type, lvl, hp, strMag, skl, spd, def, lck, res, con, mov);
+    this.hpGrowth = 80;
+    this.strMagGrowth = 60;
+    this.sklGrowth = 40;
+    this.spdGrowth = 20;
+    this.defGrowth = 25;
+    this.lckGrowth = 45;
+    this.resGrowth = 15;
+  }
+
   @Override
   public void promote() {
     if (this.lvl < 10) {

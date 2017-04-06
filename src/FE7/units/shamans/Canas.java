@@ -32,6 +32,18 @@ public class Canas extends AUnit {
     this.resGrowth = 45;
   }
 
+  public Canas(String name, String type, int lvl, int hp, int strMag, int skl, int spd, int def,
+              int lck, int res, int con, int mov) {
+    super(name, type, lvl, hp, strMag, skl, spd, def, lck, res, con, mov);
+    this.hpGrowth = 70;
+    this.strMagGrowth = 45;
+    this.sklGrowth = 40;
+    this.spdGrowth = 35;
+    this.defGrowth = 25;
+    this.lckGrowth = 25;
+    this.resGrowth = 45;
+  }
+
   @Override
   public void promote() {
     if (this.lvl < 10) {

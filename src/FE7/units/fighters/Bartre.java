@@ -32,6 +32,18 @@ public class Bartre extends AUnit {
     this.resGrowth = 25;
   }
 
+  public Bartre(String name, String type, int lvl, int hp, int strMag, int skl, int spd, int def,
+              int lck, int res, int con, int mov) {
+    super(name, type, lvl, hp, strMag, skl, spd, def, lck, res, con, mov);
+    this.hpGrowth = 85;
+    this.strMagGrowth = 50;
+    this.sklGrowth = 35;
+    this.spdGrowth = 40;
+    this.defGrowth = 30;
+    this.lckGrowth = 30;
+    this.resGrowth = 25;
+  }
+
   @Override
   public void promote() {
     if (this.lvl < 10) {

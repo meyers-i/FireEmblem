@@ -32,6 +32,18 @@ public class Erk extends AUnit {
     this.resGrowth = 40;
   }
 
+  public Erk(String name, String type, int lvl, int hp, int strMag, int skl, int spd, int def,
+             int lck, int res, int con, int mov) {
+    super(name, type, lvl, hp, strMag, skl, spd, def, lck, res, con, mov);
+    this.hpGrowth = 65;
+    this.strMagGrowth = 40;
+    this.sklGrowth = 40;
+    this.spdGrowth = 50;
+    this.defGrowth = 20;
+    this.lckGrowth = 30;
+    this.resGrowth = 40;
+  }
+
   @Override
   public void promote() {
     if (this.lvl < 10) {

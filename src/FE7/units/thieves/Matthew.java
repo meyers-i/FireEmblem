@@ -32,6 +32,18 @@ public class Matthew extends AUnit {
     this.resGrowth = 20;
   }
 
+  public Matthew(String name, String type, int lvl, int hp, int strMag, int skl, int spd, int def,
+               int lck, int res, int con, int mov) {
+    super(name, type, lvl, hp, strMag, skl, spd, def, lck, res, con, mov);
+    this.hpGrowth = 75;
+    this.strMagGrowth = 30;
+    this.sklGrowth = 40;
+    this.spdGrowth = 70;
+    this.defGrowth = 25;
+    this.lckGrowth = 50;
+    this.resGrowth = 20;
+  }
+
   @Override
   public void promote() {
     if (this.lvl < 10) {

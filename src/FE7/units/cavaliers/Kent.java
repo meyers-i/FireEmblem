@@ -32,6 +32,18 @@ public class Kent extends AUnit {
     this.resGrowth = 25;
   }
 
+  public Kent(String name, String type, int lvl, int hp, int strMag, int skl, int spd, int def,
+               int lck, int res, int con, int mov) {
+    super(name, type, lvl, hp, strMag, skl, spd, def, lck, res, con, mov);
+    this.hpGrowth = 85;
+    this.strMagGrowth = 40;
+    this.sklGrowth = 50;
+    this.spdGrowth = 45;
+    this.defGrowth = 25;
+    this.lckGrowth = 20;
+    this.resGrowth = 25;
+  }
+
   @Override
   public void promote() {
     if (this.lvl < 10) {
