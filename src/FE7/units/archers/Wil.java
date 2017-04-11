@@ -71,8 +71,8 @@ public class Wil extends AUnit{
     if (strMag == 25) {
       throw new IllegalStateException("Unit's S/M is already maxed.");
     }
-    if (strMag >= 22) {
-      this.strMag = 24;
+    if (strMag >= 23) {
+      this.strMag = 25;
     }
     else {
       this.strMag = strMag + 2;
@@ -94,11 +94,11 @@ public class Wil extends AUnit{
 
   @Override
   public void applySpeedwingP() {
-    if (spd == 29) {
+    if (spd == 28) {
       throw new IllegalStateException("Unit's Speed is already maxed.");
     }
-    else if (spd >= 27) {
-      this.spd = 29;
+    else if (spd >= 26) {
+      this.spd = 28;
     }
     else {
       this.spd = spd + 2;
@@ -107,11 +107,11 @@ public class Wil extends AUnit{
 
   @Override
   public void applyDracoshieldP() {
-    if (def == 24) {
+    if (def == 25) {
       throw new IllegalStateException("Unit's Defense is already maxed.");
     }
-    else if (def >= 22) {
-      this.def = 24;
+    else if (def >= 23) {
+      this.def = 25;
     }
     else {
       this.def = def + 2;
@@ -133,11 +133,11 @@ public class Wil extends AUnit{
 
   @Override
   public void applyTalismanP() {
-    if (res == 20) {
+    if (res == 23) {
       throw new IllegalStateException("Unit's Resistance is already maxed.");
     }
-    else if (res >= 18) {
-      this.res = 20;
+    else if (res >= 21) {
+      this.res = 23;
     }
     else {
       this.res = res + 2;

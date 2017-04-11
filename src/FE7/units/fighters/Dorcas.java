@@ -65,4 +65,82 @@ public class Dorcas extends AUnit {
       this.mov = mov + 1;
     }
   }
+
+  @Override
+  public void applyEnergyRingP() {
+    if (strMag == 30) {
+      throw new IllegalStateException("Unit's S/M is already maxed.");
+    }
+    if (strMag >= 28) {
+      this.strMag = 30;
+    }
+    else {
+      this.strMag = strMag + 2;
+    }
+  }
+
+  @Override
+  public void applySecretBookP() {
+    if (skl == 28) {
+      throw new IllegalStateException("Unit's Skill is already maxed.");
+    }
+    if (skl >= 26) {
+      this.skl = 28;
+    }
+    else {
+      this.skl = skl + 2;
+    }
+  }
+
+  @Override
+  public void applySpeedwingP() {
+    if (spd == 24) {
+      throw new IllegalStateException("Unit's Speed is already maxed.");
+    }
+    else if (spd >= 22) {
+      this.spd = 24;
+    }
+    else {
+      this.spd = spd + 2;
+    }
+  }
+
+  @Override
+  public void applyDracoshieldP() {
+    if (def == 26) {
+      throw new IllegalStateException("Unit's Defense is already maxed.");
+    }
+    else if (def >= 24) {
+      this.def = 26;
+    }
+    else {
+      this.def = def + 2;
+    }
+  }
+
+  @Override
+  public void applyGoddessIconP() {
+    if (lck == 30) {
+      throw new IllegalStateException("Unit's Luck is already maxed.");
+    }
+    else if (lck >= 28) {
+      this.lck = 30;
+    }
+    else {
+      this.lck = lck + 2;
+    }
+  }
+
+  @Override
+  public void applyTalismanP() {
+    if (res == 22) {
+      throw new IllegalStateException("Unit's Resistance is already maxed.");
+    }
+    else if (res >= 20) {
+      this.res = 22;
+    }
+    else {
+      this.res = res + 2;
+    }
+  }
 }

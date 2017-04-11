@@ -133,11 +133,11 @@ public class Rebecca extends AUnit {
 
   @Override
   public void applyTalismanP() {
-    if (res == 20) {
+    if (res == 24) {
       throw new IllegalStateException("Unit's Resistance is already maxed.");
     }
-    else if (res >= 18) {
-      this.res = 20;
+    else if (res >= 22) {
+      this.res = 24;
     }
     else {
       this.res = res + 2;
