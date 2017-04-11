@@ -146,21 +146,83 @@ public interface FE7Unit {
    */
   void levelUpTo(int lvl);
 
-  void applyAngelicRobe();
+  /***
+   * Applies an Angelic Robe to an unpromoted unit.
+   */
+  void applyAngelicRobeUP();
 
-  void applyEnergyRing();
+  /**
+   * Applies an Angelic Robe to a promoted unit.
+   */
+  void applyAngelicRobeP();
 
-  void applySecretBook();
+  /**
+   * Applies an Energy Ring to an unpromoted unit.
+   */
+  void applyEnergyRingUP();
 
-  void applySpeedwing();
+  /**
+   * Applies an Energy Ring to a promoted unit.
+   */
+  void applyEnergyRingP();
 
-  void applyDracoshield();
+  /**
+   * Applies a Secret Book to an unpromoted unit.
+   */
+  void applySecretBookUP();
 
-  void applyGoddessIcon();
+  /**
+   * Applies a Secret Book to a promoted unit.
+   */
+  void applySecretBookP();
 
-  void applyTalisman();
+  /**
+   * Applies a Speedwing to an unpromoted unit.
+   */
+  void applySpeedwingUP();
 
+  /**
+   * Applies a Speedwing to a promoted unit.
+   */
+  void applySpeedwingP();
+
+  /**
+   * Applies a Dracoshield to an unpromoted unit.
+   */
+  void applyDracoshieldUP();
+
+  /**
+   * Applies a Dracoshield to a promoted unit.
+   */
+  void applyDracoshieldP();
+
+  /**
+   * Applies a Goddess Icon to an unpromoted unit.
+   */
+  void applyGoddessIconUP();
+
+  /**
+   * Applies a Goddess Icon to a promoted unit.
+   */
+  void applyGoddessIconP();
+
+  /**
+   * Applies a Talisman to an unpromoted unit.
+   */
+  void applyTalismanUP();
+
+  /**
+   * Applies a Talisman to a promoted unit.
+   */
+  void applyTalismanP();
+
+  /**
+   * Applies Boots to a unit.
+   */
   void applyBoots();
 
+  /**
+   * Applies a Body Ring to a unit.
+   */
   void applyBodyRing();
 }

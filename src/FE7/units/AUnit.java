@@ -232,7 +232,108 @@ public abstract class AUnit implements FE7Unit {
   }
 
   @Override
-  public void applyAngelicRobe() {
+  public void applyAngelicRobeUP() {
+    if (hp == 40) {
+      throw new IllegalStateException("Unit's HP is already maxed.");
+    }
+    else if (hp >= 33) {
+      this.hp = 40;
+    }
+    else {
+      this.hp = hp + 7;
+    }
+  }
+
+  @Override
+  public void applyEnergyRingUP() {
+    if (strMag == 20) {
+      throw new IllegalStateException("Unit's S/M is already maxed.");
+    }
+    else if (strMag >= 18) {
+      this.strMag = 20;
+    }
+    else {
+      this.strMag = strMag + 2;
+    }
+  }
+
+  @Override
+  public void applySecretBookUP() {
+    if (skl == 20) {
+      throw new IllegalStateException("Unit's Skill is already maxed.");
+    }
+    else if (skl >= 18) {
+      this.skl = 20;
+    }
+    else {
+      this.skl = skl + 2;
+    }
+  }
+
+  @Override
+  public void applySpeedwingUP() {
+    if (spd == 20) {
+      throw new IllegalStateException("Unit's Speed is already maxed.");
+    }
+    else if (spd >= 18) {
+      this.spd = 20;
+    }
+    else {
+      this.spd = spd + 2;
+    }
+  }
+
+  @Override
+  public void applyDracoshieldUP() {
+    if (def == 20) {
+      throw new IllegalStateException("Unit's Defense is already maxed.");
+    }
+    else if (def >= 18) {
+      this.def = 20;
+    }
+    else {
+      this.def = def + 2;
+    }
+  }
+
+  @Override
+  public void applyGoddessIconUP() {
+    if (lck == 30) {
+      throw new IllegalStateException("Unit's Luck is already maxed.");
+    }
+    else if (lck >= 28) {
+      this.lck = 30;
+    }
+    else {
+      this.lck = lck + 2;
+    }
+  }
+
+  @Override
+  public void applyTalismanUP() {
+    if (res == 20) {
+      throw new IllegalStateException("Unit's Resistance is already maxed.");
+    }
+    else if (res >= 18) {
+      this.res = 20;
+    }
+    else {
+      this.res = res + 2;
+    }
+  }
+
+  @Override
+  public void applyBoots() {
+    this.mov = mov + 2;
+  }
+
+  @Override
+  public void applyBodyRing() {
+    this.con = con + 2;
+  }
+
+  @Override
+  public void applyAngelicRobeP() {
     if (hp == 60) {
       throw new IllegalStateException("Unit's HP is already maxed.");
     }
@@ -243,4 +344,22 @@ public abstract class AUnit implements FE7Unit {
       this.hp = hp + 7;
     }
   }
+
+  @Override
+  public abstract void applyEnergyRingP();
+
+  @Override
+  public abstract void applySecretBookP();
+
+  @Override
+  public abstract void applySpeedwingP();
+
+  @Override
+  public abstract void applyDracoshieldP();
+
+  @Override
+  public abstract void applyGoddessIconP();
+
+  @Override
+  public abstract void applyTalismanP();
 }
