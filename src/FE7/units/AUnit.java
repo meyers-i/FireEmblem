@@ -87,7 +87,7 @@ public abstract class AUnit implements FE7Unit {
   @Override
   public void hpUp() {
     Random r = new Random();
-    if (r.nextInt(101) < hpGrowth) {
+    if (r.nextInt(100) < hpGrowth) {
       this.hp++;
     }
   }
@@ -95,7 +95,7 @@ public abstract class AUnit implements FE7Unit {
   @Override
   public void strMagUp() {
     Random r = new Random();
-    if (r.nextInt(101) < strMagGrowth) {
+    if (r.nextInt(100) < strMagGrowth) {
       this.strMag++;
     }
   }
@@ -103,7 +103,7 @@ public abstract class AUnit implements FE7Unit {
   @Override
   public void sklUp() {
     Random r = new Random();
-    if (r.nextInt(101) < sklGrowth) {
+    if (r.nextInt(100) < sklGrowth) {
       this.skl++;
     }
   }
@@ -111,7 +111,7 @@ public abstract class AUnit implements FE7Unit {
   @Override
   public void spdUp() {
     Random r = new Random();
-    if (r.nextInt(101) < spdGrowth) {
+    if (r.nextInt(100) < spdGrowth) {
       this.spd++;
     }
   }
@@ -119,7 +119,7 @@ public abstract class AUnit implements FE7Unit {
   @Override
   public void defUp() {
     Random r = new Random();
-    if (r.nextInt(101) < defGrowth) {
+    if (r.nextInt(100) < defGrowth) {
       this.def = def + 1;
     }
   }
@@ -127,7 +127,7 @@ public abstract class AUnit implements FE7Unit {
   @Override
   public void lckUp() {
     Random r = new Random();
-    if (r.nextInt(101) < lckGrowth) {
+    if (r.nextInt(100) < lckGrowth) {
       this.lck++;
     }
   }
@@ -135,7 +135,7 @@ public abstract class AUnit implements FE7Unit {
   @Override
   public void resUp() {
     Random r = new Random();
-    if (r.nextInt(101) < resGrowth) {
+    if (r.nextInt(100) < resGrowth) {
       this.res++;
     }
   }

@@ -65,4 +65,82 @@ public class Rath extends AUnit {
       this.mov = mov + 1;
     }
   }
+
+  @Override
+  public void applyEnergyRingP() {
+    if (strMag == 25) {
+      throw new IllegalStateException("Unit's S/M is already maxed.");
+    }
+    if (strMag >= 23) {
+      this.strMag = 25;
+    }
+    else {
+      this.strMag = strMag + 2;
+    }
+  }
+
+  @Override
+  public void applySecretBookP() {
+    if (skl == 28) {
+      throw new IllegalStateException("Unit's Skill is already maxed.");
+    }
+    if (skl >= 26) {
+      this.skl = 28;
+    }
+    else {
+      this.skl = skl + 2;
+    }
+  }
+
+  @Override
+  public void applySpeedwingP() {
+    if (spd == 30) {
+      throw new IllegalStateException("Unit's Speed is already maxed.");
+    }
+    else if (spd >= 28) {
+      this.spd = 30;
+    }
+    else {
+      this.spd = spd + 2;
+    }
+  }
+
+  @Override
+  public void applyDracoshieldP() {
+    if (def == 24) {
+      throw new IllegalStateException("Unit's Defense is already maxed.");
+    }
+    else if (def >= 22) {
+      this.def = 24;
+    }
+    else {
+      this.def = def + 2;
+    }
+  }
+
+  @Override
+  public void applyGoddessIconP() {
+    if (lck == 30) {
+      throw new IllegalStateException("Unit's Luck is already maxed.");
+    }
+    else if (lck >= 28) {
+      this.lck = 30;
+    }
+    else {
+      this.lck = lck + 2;
+    }
+  }
+
+  @Override
+  public void applyTalismanP() {
+    if (res == 23) {
+      throw new IllegalStateException("Unit's Resistance is already maxed.");
+    }
+    else if (res >= 21) {
+      this.res = 23;
+    }
+    else {
+      this.res = res + 2;
+    }
+  }
 }
