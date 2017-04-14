@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9202696b-9502-42c8-8d95-4276ca119fc6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FE7/units/AUnit.java" afterPath="$PROJECT_DIR$/src/FE7/units/AUnit.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FE7/units/lords/Hector.java" afterPath="$PROJECT_DIR$/src/FE7/units/lords/Hector.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FE7/units/lords/Lyn.java" afterPath="$PROJECT_DIR$/src/FE7/units/lords/Lyn.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FE7/units/mages/Erk.java" afterPath="$PROJECT_DIR$/src/FE7/units/mages/Erk.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FE7/units/mercenaries/Raven.java" afterPath="$PROJECT_DIR$/src/FE7/units/mercenaries/Raven.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FE7/units/monks/Lucius.java" afterPath="$PROJECT_DIR$/src/FE7/units/monks/Lucius.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FE7/units/myrmidons/Guy.java" afterPath="$PROJECT_DIR$/src/FE7/units/myrmidons/Guy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FE7/units/nomads/Rath.java" afterPath="$PROJECT_DIR$/src/FE7/units/nomads/Rath.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FE7/units/pegasus_knights/Florina.java" afterPath="$PROJECT_DIR$/src/FE7/units/pegasus_knights/Florina.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FE7/units/pirates/Dart.java" afterPath="$PROJECT_DIR$/src/FE7/units/pirates/Dart.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FE7/units/shamans/Canas.java" afterPath="$PROJECT_DIR$/src/FE7/units/shamans/Canas.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FE7/units/thieves/Matthew.java" afterPath="$PROJECT_DIR$/src/FE7/units/thieves/Matthew.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FE7/units/transporters/Merlinus.java" afterPath="$PROJECT_DIR$/src/FE7/units/transporters/Merlinus.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FE7/units/troubadors/Priscilla.java" afterPath="$PROJECT_DIR$/src/FE7/units/troubadors/Priscilla.java" />
-    </list>
+    <list default="true" id="9202696b-9502-42c8-8d95-4276ca119fc6" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,61 +16,31 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Priscilla.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FE7/units/troubadors/Priscilla.java">
+      <file leaf-file-name="Fiora.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FE7/units/pegasus_knights/Fiora.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="138" column="19" lean-forward="false" selection-start-line="138" selection-start-column="19" selection-end-line="138" selection-end-column="19" />
+            <state relative-caret-position="-1276">
+              <caret line="35" column="14" lean-forward="false" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Merlinus.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/FE7/units/transporters/Merlinus.java">
+      <file leaf-file-name="Legault.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/FE7/units/thieves/Legault.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2904">
-              <caret line="132" column="18" lean-forward="false" selection-start-line="132" selection-start-column="18" selection-end-line="132" selection-end-column="18" />
+            <state relative-caret-position="-176">
+              <caret line="34" column="16" lean-forward="false" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AUnit.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FE7/units/AUnit.java">
+      <file leaf-file-name="Matthew.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FE7/units/thieves/Matthew.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3686">
-              <caret line="137" column="21" lean-forward="false" selection-start-line="137" selection-start-column="21" selection-end-line="137" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Lucius.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FE7/units/monks/Lucius.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="582">
-              <caret line="112" column="19" lean-forward="false" selection-start-line="112" selection-start-column="19" selection-end-line="112" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Guy.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FE7/units/myrmidons/Guy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="138" column="19" lean-forward="false" selection-start-line="138" selection-start-column="19" selection-end-line="138" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Rath.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FE7/units/nomads/Rath.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="139" column="19" lean-forward="false" selection-start-line="139" selection-start-column="19" selection-end-line="139" selection-end-column="19" />
+            <state relative-caret-position="592">
+              <caret line="135" column="18" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -95,37 +50,7 @@
         <entry file="file://$PROJECT_DIR$/src/FE7/units/pegasus_knights/Florina.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="560">
-              <caret line="138" column="19" lean-forward="false" selection-start-line="138" selection-start-column="19" selection-end-line="138" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dart.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FE7/units/pirates/Dart.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="139" column="19" lean-forward="false" selection-start-line="139" selection-start-column="19" selection-end-line="139" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Canas.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FE7/units/shamans/Canas.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="604">
-              <caret line="133" column="17" lean-forward="false" selection-start-line="133" selection-start-column="17" selection-end-line="133" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Matthew.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FE7/units/thieves/Matthew.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="135" column="18" lean-forward="false" selection-start-line="135" selection-start-column="18" selection-end-line="135" selection-end-column="18" />
+              <caret line="138" column="19" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -138,8 +63,8 @@
       <list>
         <option value="Enum" />
         <option value="JUnit4 Test Class" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -199,6 +124,8 @@
         <option value="$PROJECT_DIR$/src/FE7/units/thieves/Matthew.java" />
         <option value="$PROJECT_DIR$/src/FE7/units/troubadors/Priscilla.java" />
         <option value="$PROJECT_DIR$/src/FE7/units/transporters/Merlinus.java" />
+        <option value="$PROJECT_DIR$/src/FE7/units/pegasus_knights/Fiora.java" />
+        <option value="$PROJECT_DIR$/src/FE7/units/thieves/Legault.java" />
       </list>
     </option>
   </component>
@@ -1260,15 +1187,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/FE7/units/lords/Lyn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1166">
-          <caret line="56" column="3" lean-forward="false" selection-start-line="56" selection-start-column="3" selection-end-line="56" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FE7/units/Type.java" />
     <entry file="file://$PROJECT_DIR$/src/FE7/units/AUnit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3322">
@@ -1608,14 +1526,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FE7/units/pegasus_knights/Florina.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="138" column="19" lean-forward="false" selection-start-line="138" selection-start-column="19" selection-end-line="138" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/FE7/units/pirates/Dart.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="560">
@@ -1632,14 +1542,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FE7/units/thieves/Matthew.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="135" column="18" lean-forward="false" selection-start-line="135" selection-start-column="18" selection-end-line="135" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/FE7/units/troubadors/Priscilla.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
@@ -1652,6 +1554,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2904">
           <caret line="132" column="18" lean-forward="false" selection-start-line="132" selection-start-column="18" selection-end-line="132" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FE7/units/pegasus_knights/Florina.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="138" column="19" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FE7/units/pegasus_knights/Fiora.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1276">
+          <caret line="35" column="14" lean-forward="false" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FE7/units/thieves/Matthew.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="135" column="18" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FE7/units/thieves/Legault.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-176">
+          <caret line="34" column="16" lean-forward="false" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
           <folding />
         </state>
       </provider>
